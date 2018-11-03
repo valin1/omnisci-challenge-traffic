@@ -1,6 +1,6 @@
 function initMap() {
   
-  var input = document.getElementById('pac-input');
+  var input = document.getElementById('search');
   
 
 
@@ -23,7 +23,7 @@ function initMap() {
 }
 
 $(document).ready(function () {
-   console.log('hello');
+   
    google.maps.event.addDomListener(window, 'load', initMap);
 
 });
