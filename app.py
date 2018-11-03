@@ -1,16 +1,19 @@
 from flask import Flask
 from flask import request
 from flask import redirect, render_template, session, abort
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
+Bootstrap(app)
 @app.route("/")
 def index():
-    return "Flask App!"
-
-@app.route("/hello/<string:name>/")
-def hello(name):
     return render_template(
-        'test.html',name=name)
+        'index.html')
+
+@app.route("/hello/")
+def hello():
+    return render_template(
+        'bootstrap/base.html')
 
 @app.route("/members")
 def members():
