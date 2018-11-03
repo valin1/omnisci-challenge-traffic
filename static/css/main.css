@@ -14,8 +14,7 @@ html {
  */
 body {
   margin: 0;
-  background-image: url('/static/images/traffic.gif'); 
-  background-size: cover;
+  
 }
 
 /**
@@ -816,24 +815,21 @@ legend {
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
-  
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  
+  background-color: #FFA500;
   background-size: cover;
   background-position: center center;
   padding: 15px;
-  vertical-align: top;
 }
 
 .s003 form {
   width: 100%;
   max-width: 790px;
   margin-bottom: 0;
-  vertical-align: top;
 }
 
 .s003 form .inner-form {
@@ -847,7 +843,6 @@ legend {
       align-items: center;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   border-radius: 3px;
-
 }
 
 .s003 form .inner-form .input-field {
