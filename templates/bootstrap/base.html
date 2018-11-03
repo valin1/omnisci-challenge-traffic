@@ -26,6 +26,8 @@
     {% block scripts %}
     <script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
     <script src="{{bootstrap_find_resource('js/bootstrap.js', cdn='bootstrap')}}"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz3LC_UCc0pQEDaOlg3ZKt1YsVH_7KJdc&libraries=places"></script>
+    <script src="/static/js/places.js"></script>
     {%- endblock scripts %}
     {%- endblock body %}
   </body>
